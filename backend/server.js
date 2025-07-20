@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 2000;
 // app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors({
-  origin: 'https://tejasprasad.netlify.app/'
+  origin: 'https://tejasprasad.netlify.app'
 }));
 
 app.use('/users', userRoutes);
