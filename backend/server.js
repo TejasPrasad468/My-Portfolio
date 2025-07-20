@@ -16,6 +16,10 @@ app.use(cors({
   origin: 'https://tejasprasad.netlify.app'
 }));
 
+app.get('/', (req, res) => {
+  res.send("Hey! Wanna Talk?? Click 👉👉 https://tejasprasad.netlify.app/")
+});
+
 app.use('/users', userRoutes);
 app.use('/countries', countryRoutes);
 app.use('/states', stateRoutes);
