@@ -15,8 +15,8 @@ const PORT = process.env.PORT || 2000;
 app.use(express.json());
 app.use(cors({
   origin: [
-    'https://tejasprasad.netlify.app/',
-    'https://art-agency.vercel.app/'
+    'https://tejasprasad.netlify.app',
+    'https://art-agency.vercel.app'
   ]
 }));
 
