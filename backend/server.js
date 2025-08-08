@@ -21,12 +21,6 @@ app.use(cors({
 }));
 
 app.get('/', (req, res) => {
-  res.send("Hey! Wanna Talk?? Click 👉👉 https://tejasprasad.netlify.app/")
-
-  origin: 'https://tejasprasad.netlify.app'
-}));
-
-app.get('/', (req, res) => {
   res.send(`
     <html>
       <head><title>Let's Connect</title></head>
