@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     'https://tejasprasad.netlify.app/',
-    'http://127.0.0.1:5500'
+    'https://art-agency.vercel.app/'
   ]
 }));
 
