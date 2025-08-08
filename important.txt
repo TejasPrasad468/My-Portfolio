@@ -1,0 +1,3 @@
+Frontend Url : https://tejasprasad.netlify.app/
+Backend Url : https://my-portfolio-gamma-beryl-28.vercel.app/
+Databse : TiDB
