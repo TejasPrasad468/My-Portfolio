@@ -22,6 +22,25 @@ app.use(cors({
 
 app.get('/', (req, res) => {
   res.send("Hey! Wanna Talk?? Click 👉👉 https://tejasprasad.netlify.app/")
+
+  origin: 'https://tejasprasad.netlify.app'
+}));
+
+app.get('/', (req, res) => {
+  res.send(`
+    <html>
+      <head><title>Let's Connect</title></head>
+      <body style="font-family: Arial, sans-serif;">
+        <h2>Hey! Wanna Talk??</h2>
+        <p>
+          Click 👉👉 
+          <a href="https://tejasprasad.netlify.app/" target="_blank" rel="noopener noreferrer">
+            https://tejasprasad.netlify.app/
+          </a>
+        </p>
+      </body>
+    </html>
+  `);
 });
 
 app.use('/users', userRoutes);
